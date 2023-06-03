@@ -1,0 +1,9 @@
+.videos__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.videos__container_search {
+  justify-content: flex-start;
+  align-items: center;
+}

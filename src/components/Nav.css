@@ -1,0 +1,48 @@
+.nav {
+  position: sticky;
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  border-bottom: 1px solid #343434;
+  background-color: #0f0f0f;
+  top: 0;
+}
+
+.nav__user-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.nav__user {
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  width: 155px;
+}
+
+.nav__logo {
+  object-fit: cover;
+
+  margin-top: -4px;
+}
+.nav__logo-title-first-letter {
+  color: #2370fb;
+}
+.nav__logo-title {
+  color: rgb(255, 255, 255);
+  font-size: 34px;
+}
+
+.nav__left {
+  display: flex;
+  align-items: center;
+  width: 20%;
+}
+@media screen and (max-width: 880px) {
+  .nav__logo-title {
+    display: none;
+  }
+}
